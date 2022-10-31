@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+a.nav-link{
+    color: #fff;
+    align-self: center;
+    font-family: sans-serif;
+}
+
+.list-group{
+    justify-content: flex-end
+}
+
+.img-logo{
+    justify-content: flex-start;
+
+}
+i.fa-brands{
+    color: #fff;
+}
+i.fa-solid {
+color: #fff;
+}
+i.fa-brands.fa-twitter.fa-2xl:hover{
+color: rgb(96, 165, 255);
+}
+
+i.fa-brands.fa-github.fa-2xl:hover {
+color: rgb(130, 47, 151);
+}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+color: rgb(0, 77, 107);
+}
+
+i.fa-solid.fa-user.fa-2xl:hover{
+color: rgb(107, 1, 1);
+
+}
+
+ul.list-group{
+--bs-list-group-bg: rgba(255, 251, 251, 0);
+--bs-list-group-border-color: none;
+}
+
+/*presentacion*/
+.banner{
+    position: relative;
+    widows: 100%;
+    height: calc(108vh - 50px);
+    background-image: url(/assets/img/fondobanner.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    .capa{
+        width: 100%;
+        height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    }
+
+    .contenido{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title-banner{
+        font-family: 'Lato', sans-serif;
+        font-size: 5rem;
+        opacity: 0.7;
+        text-shadow: 3rem;
+    }
+    /*presentacion*/
+    .presentacion{
+        font-family: 'Roboto', sans-serif;
+    }
+    h1.intro {
+        padding-top: 15%;
+        font-size: 4rem;
+    }
+
+    h2.name-perfil{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 1em;
+        font-size: 2.5rem;
+    }
+/*descripcion-perfil*/
+    p.description-text{
+margin-left: 4em;
+margin-bottom: -1.5em;
+font-family: 'Open Sans', sans-serif
+    }
+/*iconos*/
+i.fa-solid.fa-calendar-days.fa-xs{
+margin-left: 3em;
+}
+
+i.fa-solid.fa-briefcase.fa-xs{
+margin-left: 3em;
+}
+
+i.fa-solid.fa-house.fa-xs{
+margin-left: 3em;
+}
+
+i.fa-solid.fa-envelope.fa-xs{
+margin-left: 3em;
+}
+
+/*perfil*/
+    img.card-img-top{
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        padding-left: 1em;
+        padding-right: 1em ;
+        border-radius: 2%;
+        margin-top: 1em;
+    }
+
+    img.perfil-img{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background-size: 100% 100%;
+        margin-top: -10em;
+        margin-left: 2em;
+    }
+
+    p.presentacion-perfil{  
+        width: 100%;
+    }
+    .miPresentacion{
+background-color: #212529;
+width: 100%;
+    }
+
+    /*sobre-mi*/
+    .about{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        width: 100vw;
+        align-items: center;
+        background-image: url(/assets/img/cropped-1600-900-648468.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    h2.about-me{
+        font-size: 3em;
+    }
+
+    .about img {
+        width: 100%;
+        grid-column:1/5;
+        align-items: center;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        border: 6px  solid rgb(117, 12, 0);
+        box-shadow: 0 0.5rem 0.5rem rgba(179, 31, 31, 0.849);
+        margin-left: 2em;
+    }
+
+
+    .about-info {
+        grid-column: 5/10;
+        padding: 5em;
+    }
+/*experiencia laboral*/
+.miExperiencia{
+    background-color: #212529;
+}
+
+.card.border-dark.mb-3{
+    background-color: #212529;
+}
+
+h2.text-experiencia.text-white.text-center{
+ font-size: 2.5em;
+padding-top: 0.5em;
+}
+img.img-fluid.rounded-start{
+    margin-top: 0.8em;
+}
+
+
+.card{
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow:  5px 5px 20px rgba(255, 255, 255, 0.2);
+}
+
+/*Educación*/
+div.miEducacion{
+    background-color: #212529;
+    width: 100%;
+}
+
+h2.text-educacion.text-white.text-center{
+    font-size: 2.5em;
+    padding-top: 0.5em;
+}
+
+/*certificados*/
+.cursos-me{
+    background-color: #212529;
+}
+
+.carousel-inner {
+    margin-left: 25em;
+}
+
+.card.mb-3{
+    background-color: #212529;
+}
+
+/*H&S*/
+h3.text-HySS.text-white.text-center{
+    font-size: 2.5em;
+}
+
+/*footer*/
+div.py-4.bg-dark-blue.text-white-300{
+    background-color:#02284e;
+}
